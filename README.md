@@ -6,10 +6,6 @@ Real-Time Object Detection using MediaPipe and OpenCV.
 
 This project leverages **MediaPipe** and **OpenCV** to perform real-time object detection using a webcam. It uses a pre-trained model (`ssd_mobilenet_v2.tflite`) for detecting objects and displays bounding boxes with category labels and probabilities.
 
-- Real-time object detection.
-- Visualization of bounding boxes and labels.
-- Modular and scalable codebase.
-
 
 ## Setup Instructions
 
