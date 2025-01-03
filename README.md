@@ -19,7 +19,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone 
+   git clone git@github.com:Boris-Tufegdzic/ObjectDetection.git
    cd MediaPartObjectDetection
     ```
 
