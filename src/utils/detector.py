@@ -10,9 +10,11 @@ def create_detector(model_path=None, score_threshold=0.5):
         score_threshold (float): Minimum confidence score for detection.
     """
 
+    models = ['efficientdet_lite0.tflite', 'efficientdet_lite2.tflite', 'ssd_mobilenet_v2.tflite']
+
     if model_path is None:
         # Construct the absolute path to the model file
-        model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'ssd_mobilenet_v2.tflite')
+        model_path = os.path.join(os.path.dirname(__file__), '..', 'models', models[2])
     
     try:
         base_options = python.BaseOptions(model_asset_path=model_path)
